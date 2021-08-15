@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout tools:context=".InsertAndViewActivity" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.Toolbar android:layout_height="wrap_content" android:layout_width="match_parent" android:theme="?attr/actionBarTheme" android:minHeight="?attr/actionBarSize" android:background="?attr/colorPrimary" android:id="@+id/toolbar"/>
+
+
+    -<LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:padding="20dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="12sp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="Nama File"/>
+
+    <EditText android:layout_height="40dp" android:layout_width="match_parent" android:id="@+id/editFileName" android:textSize="14sp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="12sp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="Catatan"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="match_parent" android:background="#e9e9e9" android:id="@+id/editContent" android:padding="5dp" android:textSize="14sp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:textColor="#000" android:singleLine="false" android:gravity="top|left" android:layout_weight="1"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/btnSimpan" android:layout_marginTop="5dp" android:text="Simpan" android:textColor="#FFF" android:textStyle="bold"/>
+
+</LinearLayout>
+
+</LinearLayout>
